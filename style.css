@@ -1,0 +1,258 @@
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background-color: #0f0f0f;
+  color: #ffffff;
+}
+
+h2 {
+  border-bottom: 1px solid #333;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 30px;
+}
+
+.hero {
+  text-align: center;
+  padding: 80px 20px;
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+/********BARRA DE NAVEGACIÓN********/
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+  background-color: #1c1c1c;
+}
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+}
+.nav-links a {
+  text-decoration: none;
+  color: #fff;
+  transition: color 0.3s ease;
+}
+.nav-links a:hover {
+  color: #00f0ff;
+}
+.hero {
+  text-align: center;
+  padding: 100px 20px;
+}
+.hero h2 {
+  font-size: 3rem;
+  margin-bottom: 20px;
+}
+.hero p {
+  font-size: 1.2rem;
+  color: #cccccc;
+}
+
+
+
+.btn-primary {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 12px 24px;
+  border-radius: 999px;
+  background-color: #00f0ff;
+  color: #0f0f0f;
+  font-weight: 600;
+  text-decoration: none;
+  transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.btn-primary:hover {
+  background-color: #04c0d0;
+  box-shadow: 0 8px 16px rgba(0, 240, 255, 0.3);
+  transform: translateY(-2px);
+}
+
+
+/********PROYECTOS********/
+
+.proyectos, .sobre-mi {
+  padding: 80px 20px;
+  text-align: center;
+}
+.proyectos h2, .sobre-mi h2 {
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+  color: #00f0ff;
+}
+.proyectos-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.proyecto-card {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.proyecto-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0,0,0,0.5);
+}
+.proyecto-card h3 {
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.proyecto-card p {
+  color: #cccccc;
+  margin-bottom: 15px;
+}
+.proyecto-card a {
+  color: #00f0ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+/********HABILIDADES********/
+
+.habilidades {
+  padding: 80px 20px;
+  text-align: center;
+}
+
+.habilidades h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00f0ff;
+}
+
+.habilidades-intro {
+  max-width: 700px;
+  margin: 0 auto 30px;
+  font-size: 1.1rem;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+.skills-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 12px;
+  margin-bottom: 40px;
+}
+
+.skill-tag {
+  border-radius: 999px;
+  border: 1px solid #00f0ff;
+  padding: 8px 16px;
+  font-size: 0.95rem;
+  color: #00f0ff;
+}
+
+/********STATS********/
+
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+  gap: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.stat-card {
+  background-color: #1c1c1c;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+.stat-number {
+  display: block;
+  font-size: 2rem;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.stat-label {
+  display: block;
+  font-size: 0.95rem;
+  color: #cccccc;
+}
+
+
+/********SOBRE MI********/
+
+.sobre-mi p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  color: #cccccc;
+  line-height: 1.6;
+}
+
+/********CONTACTO********/
+
+.contacto {
+  padding: 80px 20px;
+  text-align: center;
+}
+.contacto h2 {
+  font-size: 2.5rem;
+  margin-bottom: 20px;
+  color: #00f0ff;
+}
+.contacto p {
+  font-size: 1.2rem;
+  color: #cccccc;
+  margin-bottom: 30px;
+}
+.contact-links {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+.contact-links a {
+  background-color: #1c1c1c;
+  padding: 12px 20px;
+  border-radius: 8px;
+  color: #00f0ff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.contact-links a:hover {
+  background-color: #00f0ff;
+  color: #0f0f0f;
+  transform: translateY(-3px);
+}
+
+
+
+@media (max-width: 768px) {
+  .navbar {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 10px;
+  }
+
+  .nav-links {
+    flex-wrap: wrap;
+    gap: 10px;
+  }
+
+  .hero h2 {
+    font-size: 2.2rem;
+  }
+
+  .hero p {
+    font-size: 1rem;
+  }
+}
+/********FIN DE STYLES********/
