@@ -4,18 +4,21 @@ body {
   background-color: #0f0f0f;
   color: #ffffff;
 }
+
 h2 {
   border-bottom: 1px solid #333;
   display: inline-block;
   padding-bottom: 5px;
   margin-bottom: 30px;
 }
+
 .hero {
   text-align: center;
   padding: 80px 20px;
   max-width: 900px;
   margin: 0 auto;
 }
+
 hr {
   border: none;
   border-top: 1px solid #333;
@@ -23,6 +26,7 @@ hr {
   margin: 60px auto;
   opacity: 0.6;
 }
+
 html {
   scroll-behavior: smooth;
 }
@@ -40,34 +44,42 @@ html {
   background-color: #1c1c1c;
   z-index: 10;
 }
+
 .nav-links {
   list-style: none;
   display: flex;
   gap: 20px;
 }
+
 .nav-links a {
   text-decoration: none;
   color: #fff;
   transition: color 0.3s ease;
 }
+
 .nav-links a:hover {
   color: #00f0ff;
 }
+
 .hero {
   text-align: center;
   padding: 100px 20px;
 }
+
 .hero h2 {
   font-size: 3rem;
   margin-bottom: 20px;
 }
+
 .hero p {
   font-size: 1.2rem;
   color: #cccccc;
 }
+
 .navbar a {
   position: relative;
 }
+
 .navbar a::after {
   content: "";
   position: absolute;
@@ -78,6 +90,7 @@ html {
   background-color: #00f0ff;
   transition: width 0.3s ease;
 }
+
 .navbar a:hover::after {
   width: 100%;
 }
@@ -95,6 +108,7 @@ html {
   text-decoration: none;
   transition: transform 0.2s ease, box-shadow 0.2s ease, background-color 0.2s ease;
 }
+
 .btn-primary:hover {
   background-color: #04c0d0;
   box-shadow: 0 8px 16px rgba(0, 240, 255, 0.3);
@@ -104,15 +118,19 @@ html {
 
 /********PROYECTOS********/
 
-.proyectos, .sobre-mi {
+.proyectos,
+.sobre-mi {
   padding: 80px 20px;
   text-align: center;
 }
-.proyectos h2, .sobre-mi h2 {
+
+.proyectos h2,
+.sobre-mi h2 {
   font-size: 2.5rem;
   margin-bottom: 40px;
   color: #00f0ff;
 }
+
 .proyectos-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
@@ -120,33 +138,40 @@ html {
   max-width: 1000px;
   margin: 0 auto;
 }
+
 .proyecto-card {
   background-color: #1c1c1c;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
   transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
+
 .proyecto-card:hover {
   transform: translateY(-6px);
-  box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.6);
 }
+
 .proyecto-card h3 {
   margin-bottom: 15px;
   color: #ffffff;
 }
+
 .proyecto-card p {
   color: #cccccc;
   margin-bottom: 15px;
 }
+
 .proyecto-card a {
   color: #00f0ff;
   text-decoration: none;
   font-weight: bold;
 }
+
 .proyecto-card a {
   position: relative;
 }
+
 .proyecto-card a::after {
   content: "";
   position: absolute;
@@ -157,6 +182,7 @@ html {
   background-color: #00f0ff;
   transition: width 0.3s ease;
 }
+
 .proyecto-card a:hover::after {
   width: 100%;
 }
@@ -168,11 +194,13 @@ html {
   padding: 80px 20px;
   text-align: center;
 }
+
 .habilidades h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   color: #00f0ff;
 }
+
 .habilidades-intro {
   max-width: 700px;
   margin: 0 auto 30px;
@@ -180,6 +208,7 @@ html {
   color: #cccccc;
   line-height: 1.6;
 }
+
 .skills-grid {
   display: flex;
   flex-wrap: wrap;
@@ -187,6 +216,7 @@ html {
   gap: 12px;
   margin-bottom: 40px;
 }
+
 .skill-tag {
   border-radius: 999px;
   border: 1px solid #00f0ff;
@@ -204,18 +234,21 @@ html {
   max-width: 800px;
   margin: 0 auto;
 }
+
 .stat-card {
   background-color: #1c1c1c;
   padding: 20px;
   border-radius: 12px;
-  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
 }
+
 .stat-number {
   display: block;
   font-size: 2rem;
   font-weight: 600;
   margin-bottom: 5px;
 }
+
 .stat-label {
   display: block;
   font-size: 0.95rem;
@@ -239,22 +272,26 @@ html {
   padding: 80px 20px;
   text-align: center;
 }
+
 .contacto h2 {
   font-size: 2.5rem;
   margin-bottom: 20px;
   color: #00f0ff;
 }
+
 .contacto p {
   font-size: 1.2rem;
   color: #cccccc;
   margin-bottom: 30px;
 }
+
 .contact-links {
   display: flex;
   justify-content: center;
   flex-wrap: wrap;
   gap: 20px;
 }
+
 .contact-links a {
   background-color: #1c1c1c;
   padding: 12px 20px;
@@ -264,6 +301,7 @@ html {
   font-weight: bold;
   transition: background-color 0.3s ease, transform 0.3s ease;
 }
+
 .contact-links a:hover {
   background-color: #00f0ff;
   color: #0f0f0f;
@@ -287,14 +325,85 @@ html {
     align-items: flex-start;
     gap: 10px;
   }
+
   .nav-links {
     flex-wrap: wrap;
     gap: 10px;
   }
+
   .hero h2 {
     font-size: 2.2rem;
   }
+
   .hero p {
     font-size: 1rem;
   }
+}
+
+/* ==========================================================================
+   SCROLL ANIMATIONS (INTERSECTION OBSERVER)
+   ========================================================================== */
+
+/* Prevenir scroll horizontal debido a desplazamientos de animación */
+body {
+  overflow-x: hidden;
+}
+
+/* Estado inicial base de revelación */
+.reveal {
+  opacity: 0;
+  transition: opacity 1.2s cubic-bezier(0.16, 1, 0.3, 1), transform 1.2s cubic-bezier(0.16, 1, 0.3, 1);
+  will-change: transform, opacity;
+}
+
+/* Estado activo (cuando es visible) */
+.reveal.active {
+  opacity: 1;
+  transform: translate(0, 0) scale(1) !important;
+}
+
+/* Direcciones iniciales de animación */
+.fade-up {
+  transform: translateY(40px);
+}
+
+.fade-down {
+  transform: translateY(-40px);
+}
+
+.fade-left {
+  transform: translateX(-50px);
+}
+
+.fade-right {
+  transform: translateX(50px);
+}
+
+.zoom-in {
+  transform: scale(0.92);
+}
+
+/* Retrasos secuenciales (staggered animation delays) */
+.delay-100 {
+  transition-delay: 100ms;
+}
+
+.delay-200 {
+  transition-delay: 200ms;
+}
+
+.delay-300 {
+  transition-delay: 300ms;
+}
+
+.delay-400 {
+  transition-delay: 400ms;
+}
+
+.delay-500 {
+  transition-delay: 500ms;
+}
+
+.delay-600 {
+  transition-delay: 600ms;
 }
